@@ -11,24 +11,28 @@ A portable cyberdeck built inside a Cadbury celebration box that can:
 - 📡 Generate signals (Signal Generator)
 - 🎮 Tilt interface using MPU6050 accelerometer
 
-## Hardware
-| Component | Purpose | Status |
-|---|---|---|
-| ESP32 | Brain | ✅ Working |
-| MPU6050 | Accelerometer | ✅ Working |
-| AD9833 | Signal Generator | ⏳ Ordered |
-| ADS1115 | Oscilloscope ADC | ⏳ Ordered |
-| ESP32 CYD | Display | ⏳ Ordered |
-| LiPo 2000mAh | Battery | ⏳ Ordered |
-
-## Progress
-- [x] MicroPython flashed on ESP32
-- [x] MPU6050 accelerometer reading
-- [x] GitHub repo set up
-- [ ] Signal generator (AD9833)
-- [ ] Oscilloscope (ADS1115)
-- [ ] Display (CYD touchscreen)
-- [ ] Final assembly in Cadbury box 🍫
-
 ## Built by
 Purnima — 4th year ENI, BITS Goa 🎓
+# Cyberdeck
+
+A handheld ESP32 + Raspberry Pi Zero 2W cyberdeck that doubles as an oscilloscope and signal generator.
+
+## Hardware
+- ESP32
+- 3.5" ILI9488 SPI TFT Display
+- AD7606 8-channel ADC (oscilloscope input)
+- AD9833 DDS Signal Generator
+- TP4056 USB-C charging + dual 18650 batteries
+- Raspberry Pi Zero 2W (Linux companion)
+- WS2812 8×8 RGB Matrix
+- MPU6050 IMU
+- KY-040 Rotary Encoder
+
+## Phases
+- [ ] Phase 1: Git & dev environment
+- [ ] Phase 2: Power system
+- [ ] Phase 3: ESP32 core UI
+- [ ] Phase 4: Oscilloscope mode
+- [ ] Phase 5: Signal generator mode
+- [ ] Phase 6: Cyberdeck extras
+- [ ] Phase 7: RPi Zero + final assembly
