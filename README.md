@@ -17,7 +17,7 @@ Functions as oscilloscope, signal generator, IMU monitor, and Linux handheld.
 - Mini Bluetooth Keyboard
 
 ## Phases
-- [ ] Phase 1: Git + Mac + Phone setup
+- [x] Phase 1: Git + Mac + Phone setup
 - [ ] Phase 2: Power system
 - [ ] Phase 3: ESP32 core + display + inputs
 - [ ] Phase 4: Samsung J7 Prime brain setup
