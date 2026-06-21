@@ -1,38 +1,27 @@
-# ⚡ OSCIGEN
-> Handheld Oscilloscope + Signal Generator Cyberdeck built on ESP32
-
-![Status](https://img.shields.io/badge/status-in%20progress-yellow)
-![Platform](https://img.shields.io/badge/platform-ESP32-blue)
-![Language](https://img.shields.io/badge/language-MicroPython-green)
-
-## What is OSCIGEN?
-A portable cyberdeck built inside a Cadbury celebration box that can:
-- 📈 Read and display signals (Oscilloscope)
-- 📡 Generate signals (Signal Generator)
-- 🎮 Tilt interface using MPU6050 accelerometer
-
-## Built by
-Purnima — 4th year ENI, BITS Goa 🎓
 # Cyberdeck
 
-A handheld ESP32 + Raspberry Pi Zero 2W cyberdeck that doubles as an oscilloscope and signal generator.
+A handheld cyberdeck built with ESP32 + Samsung J7 Prime Android phone.
+Functions as oscilloscope, signal generator, IMU monitor, and Linux handheld.
 
 ## Hardware
-- ESP32
+- ESP32 (hardware brain — controls all sensors and display)
+- Samsung Galaxy J7 Prime (Linux brain via Termux — runs Python)
 - 3.5" ILI9488 SPI TFT Display
-- AD7606 8-channel ADC (oscilloscope input)
+- AD7606 ADC (oscilloscope input)
 - AD9833 DDS Signal Generator
+- ADS1115 ADC (general analog input)
+- MPU6050 IMU (accelerometer + gyroscope)
+- WS2812 8x8 RGB Matrix
 - TP4056 USB-C charging + dual 18650 batteries
-- Raspberry Pi Zero 2W (Linux companion)
-- WS2812 8×8 RGB Matrix
-- MPU6050 IMU
 - KY-040 Rotary Encoder
+- Mini Bluetooth Keyboard
 
 ## Phases
-- [ ] Phase 1: Git & dev environment
+- [ ] Phase 1: Git + Mac + Phone setup
 - [ ] Phase 2: Power system
-- [ ] Phase 3: ESP32 core UI
-- [ ] Phase 4: Oscilloscope mode
-- [ ] Phase 5: Signal generator mode
-- [ ] Phase 6: Cyberdeck extras
-- [ ] Phase 7: RPi Zero + final assembly
+- [ ] Phase 3: ESP32 core + display + inputs
+- [ ] Phase 4: Samsung J7 Prime brain setup
+- [ ] Phase 5: Oscilloscope mode
+- [ ] Phase 6: Signal generator mode
+- [ ] Phase 7: Cyberdeck extras
+- [ ] Phase 8: Final assembly
