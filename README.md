@@ -18,7 +18,7 @@ Functions as oscilloscope, signal generator, IMU monitor, and Linux handheld.
 
 ## Phases
 - [x] Phase 1: Git + Mac + Phone setup
-- [ ] Phase 2: Power system
+- [x] Phase 2: Power system
 - [ ] Phase 3: ESP32 core + display + inputs
 - [ ] Phase 4: Samsung J7 Prime brain setup
 - [ ] Phase 5: Oscilloscope mode
